@@ -3,8 +3,9 @@
 # The first line of the code has been defined as below.
 
 def hello_name(username):
-    print("Hello, " + username.title() +"!")
-hello_name('Cesar Llamas')
+     print('Enter your name:')
+username = input()
+print('Hello, ' + username)
 
 
 # Question 2:
